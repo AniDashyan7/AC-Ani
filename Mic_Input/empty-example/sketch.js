@@ -3,7 +3,7 @@ var button;
 var smoothMicLevel=0;
 
 function setup(){
-  createCanvas(windowWidth,windowHeight-100,WEBGL);
+  createCanvas(windowWidth,windowHeight-100);
   button = createButton("Listen");
   button.mousePressed(toggleListen);
 	mic = new p5.AudioIn()
@@ -20,9 +20,9 @@ function draw(){
   fill(random(255),random(255),random(255));
   noStroke();
 
-  for(var i = 0; i <  50; i++){
+  for(var i = 0; i <  100; i++){
     beginShape();
-    for(var a = 0; a < TWO_PI;a+=0.01){
+    for(var a = 0; a < TWO_PI;a+=0.1){
     var r = width/5;
     var x = smoothMicLevel * r * 16 *  pow(sin(a), 3);
     var y = smoothMicLevel*(-r*(13 * cos(a) - 5*cos(2*a) - 2*cos(3*a) - cos(4*a)));
