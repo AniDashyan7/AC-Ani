@@ -1,0 +1,117 @@
+body{
+    background-image: url("17157790-a-illustration-of-wild-animals-playing-mu.jpg");
+    margin:0;
+    padding:0;
+   /* background-attachment: fixed;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hippo{
+	position: absolute;
+	top: 3%;
+	left: 3%;
+    display: block;
+    width: 95%;
+    height:75%;
+    /*background-color: grey;*/
+    border: 1px solid black;   
+}
+
+.head{
+	position: relative;
+	top:5%;
+	left: 23%;
+	background-color: rgb(169,169,169);
+	width: 55%;
+	height: 25%;
+	border-radius:48% 48% 45% 45%;
+	opacity: .3;
+}
+
+.left_eye{
+	position: relative;
+    top: 30%;
+    left: 20%;
+    background-color:black;
+    width: 15%;
+    height:30%;
+    border-radius:50%;
+    transform: rotate(-10deg);
+}
+
+.sparkle_l{
+	position: relative;
+    top: 50%;
+    left: 45%;
+    background-color:white;
+    width:50%;
+    height:40%;
+    border-radius:50%;
+    transform: rotate(-10deg);
+}
+
+.right_eye{
+	position: relative;
+    top: 5%;
+    left: 65%;
+    background-color:black;
+    width: 15%;
+    height:30%;
+    border-radius:50%;
+    transform: rotate(10deg);
+}
+
+.sparkle_r{
+	position: relative;
+    top: 50%;
+    left: 15%;
+    background-color:white;
+    width:50%;
+    height:40%;
+    border-radius:50%;
+    transform: rotate(-10deg);
+}
+
+.nose_l{
+	position: relative;
+	top: 7%;
+	left: 40%;
+	background-color: grey;
+	width: 58%;
+	height: 80%;
+	border-radius: 30% 70% 60% 60%;
+}
+
+
+.nose_r{
+	position: relative;
+	top: -240px;
+	left: -10px;
+	background-color: grey;
+	width: 65%;
+	height: 80%;
+	border-radius: 70% 30% 60% 60%;
+}
+
+.tooth_l{
+    position: relative;
+    top: -245px;
+    left: 67%;
+    background-color: white;
+    width: 17%;
+    height:17%;
+    border-radius: 0% 0% 30% 30%;
+    transform: rotate(-5deg);
+}
+
+.tooth_r{
+    position: relative;
+    top: -300px;
+    left: 17%;
+    background-color: white;
+    width: 17%;
+    height:17%;
+    border-radius: 0% 0% 30% 30%;
+    transform: rotate(5deg);
+}
