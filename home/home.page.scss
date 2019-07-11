@@ -1,0 +1,409 @@
+body{
+    // background-image: url("17157790-a-illustration-of-wild-animals-playing-mu.jpg");
+    margin:0;
+    padding:0;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hippo{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    display: block;
+    width: 85%;
+    height: 60%;
+}
+
+.head{
+	position: relative;
+	top:5%;
+	left: 23%;
+	background-color: rgb(169,169,169);
+	width: 55%;
+	height: 25%;
+    border-radius:48% 48% 45% 45%;
+    z-index: 1;
+	/* opacity: .3; */
+}
+
+.left_eye{
+	position: relative;
+    top: 30%;
+    left: 20%;
+    background-color:black;
+    width: 15%;
+    height:30%;
+    border-radius:50%;
+    transform: rotate(-10deg);
+}
+
+.sparkle_l{
+	position: relative;
+    top: 50%;
+    left: 45%;
+    background-color:white;
+    width:50%;
+    height:40%;
+    border-radius:50%;
+    transform: rotate(-10deg);
+}
+
+.right_eye{
+	position: relative;
+    top: 5%;
+    left: 65%;
+    background-color:black;
+    width: 15%;
+    height:30%;
+    border-radius:50%;
+    transform: rotate(10deg);
+}
+
+.sparkle_r{
+	position: relative;
+    top: 50%;
+    left: 15%;
+    background-color:white;
+    width:50%;
+    height:40%;
+    border-radius:50%;
+    transform: rotate(-10deg);
+}
+
+.nose_l{
+	position: relative;
+	top: 7%;
+	left: 40%;
+	background-color: grey;
+	width: 58%;
+	height: 80%;
+	border-radius: 30% 70% 60% 60%;
+}
+
+
+.nose_r{
+	position: relative;
+    top: -73%;
+    left: -4%;
+    background-color: grey;
+    width: 65%;
+    height: 80%;
+    border-radius: 70% 30% 60% 60%;
+}
+
+.tooth_l{
+    position: relative;
+    top: -78%;
+    left: 67%;
+    background-color: white;
+    width: 17%;
+    height:17%;
+    border-radius: 0% 0% 30% 30%;
+    transform: rotate(-5deg);
+}
+
+.tooth_r{
+    position: relative;
+    top: -96%;
+    left: 17%;
+    background-color: white;
+    width: 17%;
+    height:17%;
+    border-radius: 0% 0% 30% 30%;
+    transform: rotate(5deg);
+}
+
+.left_ear{
+    position: relative;
+    top: -23%;
+    left: 20%;
+    border: 10px solid gray;
+    background-color: darkgray;
+    border-bottom: none;
+    width: 14%;
+    height: 9%;
+    border-radius: 66% 33%;
+    transform: rotate(-30deg);
+}
+
+
+.right_ear{
+    position: relative;
+    top: -30%;
+    left: 69%;
+    border: 10px solid grey;
+    background-color: darkgray;
+    border-bottom: none;
+    width: 14%;
+    height: 9%;
+    border-radius: 33% 66%;
+    transform: rotate(51deg);
+}
+
+.nose_hole_l{
+    position: relative;
+    top: 30%;
+    left: 40%;
+    background-color: black;
+    width: 28%;
+    height: 40%;
+    border-radius:50%;
+    transform: rotate(19deg);
+}
+
+.nose_hole_r{
+    position: relative;
+    top: 27%;
+    left: 30%;
+    background-color: black;
+    width: 25%;
+    height:39.93%;
+    border-radius:50%;
+    transform: rotate(-19deg);
+}
+
+.body{
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    background-color:rgb(169,169,169);
+    width: 82%;
+    height: 52%;
+    border-radius: 43% 49% 54% 65%;
+    transform: rotate(0deg);
+    /* opacity: .3; */
+}
+
+.left_leg{
+    position: relative;
+    top: 81%;
+    left: 63%;
+    background-color:rgb(169,169,169);
+    width: 32%;
+    height: 47%;
+    border-radius: 0% 0% 30% 30%;
+    transform: rotate(-18deg);
+}
+
+.right_leg{
+    position: relative;
+    top: 36%;
+    left: 12%;
+    background-color: rgb(169,169,169);
+    width: 32%;
+    height: 47%;
+    border-radius: 0% 0% 30% 30%;
+    transform: rotate(18deg);
+}
+
+.left_hand{
+    position: relative;
+    top: -69%;
+    left: 72%;
+    background-color: grey;
+    /* background-color: red; */
+    width: 16%;
+    height: 21%;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    z-index: 1;
+    animation: boom-l 1s infinite;
+}
+
+@keyframes boom-l{
+    75%{
+        top:-50%;
+    }
+}
+
+
+
+.right_hand{
+    position: relative;
+    top: -90%;
+    left: 13%;
+    background-color: grey;
+    /* background-color: red; */
+    width: 20%;
+    height: 18%;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    animation: boom-r 1s infinite;
+    
+}
+
+@keyframes boom-r{
+    25%{
+        top:-70%;
+    }
+}
+.baraban{
+    position: absolute;
+    top: 59%;
+    left: 12%;
+    width: 78%;
+    height: 41%;
+    border-radius: 0;
+    transform: rotate(0deg);
+    /* opacity: .3;  */
+}
+
+  .verevi-mas{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: beige;
+    width: 100%;
+    height: 50%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(0deg);
+    z-index: 1;
+    /* opacity: .3;*/
+}
+
+.mejtexi-mas{
+
+    position: relative;
+    top: -18%;
+    left: 0%;
+    background-color: black;
+    width: 100%;
+    height: 71%;
+    border-radius: 0% 0% 50% 50%;
+    transform: rotate(0deg);
+    /* opacity: .3; */ 
+} 
+
+
+.gic1{
+    position: relative;
+    top: -148%;
+    left: 48%;
+    background-color: brown;
+    width: 3%;
+    height: 137%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 2;
+    transform: rotate(90deg);
+}
+
+.gic2{
+    position: relative;
+    top: -223%;
+    left: 48%;
+    background-color: brown;
+    width: 3%;
+    height: 108%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 2;
+    transform: rotate(90deg);
+}
+
+.gic3{
+    position: relative;
+    top: -329%;
+    left: 29%;
+    background-color: brown;
+    width: 6%;
+    height: 57%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 2;
+    transform: rotate(30deg);
+}
+.gic4{
+    position: relative;
+    top: -386%;
+    left: 29%;
+    background-color: brown;
+    width: 6%;
+    height: 57%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 2;
+    transform: rotate(-30deg);
+}
+.gic5{
+    position: relative;
+    top: -444%;
+    left: 66%;
+    background-color: brown;
+    width: 6%;
+    height: 57%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 2;
+    transform: rotate(-30deg);
+}
+
+.gic6{
+    position: relative;
+    top: -500%;
+    left: 66%;
+    background-color: brown;
+    width: 6%;
+    height: 57%;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 2;
+    transform: rotate(30deg);
+}
+
+/* .verevi-mas2{
+    position: relative;
+    top: -33%;
+    left: 0%;
+    background-color: beige;
+    width: 100%;
+    height: 20%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(0deg);
+    z-index: 1;
+    opacity: .3;
+} */
+
+
+.buttons{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    width: 100%;
+    height: 23%;
+}
+
+.button_1{
+    position: relative;
+    top: 21%;
+    left: 12%;
+    width: 15%;
+    height: 28%;
+    background-color: orange;
+    border-radius: 50%;
+    margin-right: 3%;
+    padding: 0%;
+    border: none;
+}
+
+.button_2{
+    position: relative;
+    top: 61%;
+    left: -9%;
+    width: 15%;
+    height: 28%;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 3%;
+    padding: 0%;
+    border: none
+}
+
+.move{
+    position: relative;
+    top: 32%;
+    left: 9%;
+    width: 15%;
+    height: 28%;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 3%;
+    padding: 0%;
+    border: none;
+}
